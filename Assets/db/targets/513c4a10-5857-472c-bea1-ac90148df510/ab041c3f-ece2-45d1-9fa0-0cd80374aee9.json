@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:ab041c3f-ece2-45d1-9fa0-0cd80374aee9",
+    "type": "Annotation",
+    "creator": {"id":"_alan","name":"Alan","email":"alan@google.com"},
+    "created": "2/5/2018 6:11:12 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "Seulen ueberpruefen"
+        }
+    ],
+    "target": {
+        "id": "{target:513c4a10-5857-472c-bea1-ac90148df510}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Säulen_innen",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "18:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "513c4a10-5857-472c-bea1-ac90148df510/4c7fb462-dba0-47ff-99a9-9e66989570c2/355564ee-b4d2-4745-9f28-d3da910eaa3e/"
+        },
+        "annotationPosition":  {"position":{"x":9.43185806274414,"y":1.4756906032562256,"z":1.4954692125320435},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97608353265398,"longitude":23.72220769144518,"elevation":0.000014841733963266766},
+        "viewPortPosition":  {"position":{"x":5.142920970916748,"y":1.56892991065979,"z":3.207857608795166},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97609595926553,"longitude":23.722257854308717,"elevation":0.000015779486763446844}
+        
+    }
+}

@@ -1,0 +1,28 @@
+
+        {
+            "@context": 
+            {
+                "@vocab":"http://www.w3.org/ns/target.jsonld",
+                "@base": "http://annotator/target/"
+            },
+            "id" : "target:8e4086a0-70f5-47d7-bdec-4314fbfb9e46",
+            "@type": "AnnotationTarget",
+            "creator": {"id":"_alan","name":"Alan","email":"alan @google.com"},
+            "created": "7/10/2017 7:02:44 PM",
+            "generator": 
+            {
+                "id": "http://vr-annotator/v/02",
+                "type": "Software",
+                "name": "VR-Annotator v0.2"
+            },
+            "interpretation": 
+            {
+                "refinedBy": 
+                {
+                    "modellerName":"",
+                    "modellingSoftware":"",
+                    "references": []
+                }
+            },
+            "nodeGraph": { "nodeId" : " 8e4086a0-70f5-47d7-bdec-4314fbfb9e46 ",  "children" : [{ "nodeId" : " bd0be31a-341e-4bff-854c-919178c82fc5 ",  "children" : [{ "nodeId" : " d1b59d62-523e-43d4-9cd5-1044811450d2 ",  "children" : []}]}]}
+        }

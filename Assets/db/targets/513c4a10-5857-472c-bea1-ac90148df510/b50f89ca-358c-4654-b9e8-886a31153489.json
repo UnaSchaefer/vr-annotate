@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:b50f89ca-358c-4654-b9e8-886a31153489",
+    "type": "Annotation",
+    "creator": {"id":"_alan","name":"Alan","email":"alan@google.com"},
+    "created": "2/5/2018 6:10:06 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "Thron von wem"
+        }
+    ],
+    "target": {
+        "id": "{target:513c4a10-5857-472c-bea1-ac90148df510}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Thron_Reko_lp",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "18:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "513c4a10-5857-472c-bea1-ac90148df510/2da5c59e-3b67-4c03-be3c-786e497b1aff/bf676ade-70fe-476b-a27d-e99bfc108922/"
+        },
+        "annotationPosition":  {"position":{"x":1.4070794582366944,"y":0.24679076671600343,"z":6.425429344177246},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97609472294761,"longitude":23.72231394903681,"elevation":0.0000024820940758904987},
+        "viewPortPosition":  {"position":{"x":2.869558334350586,"y":1.1281400918960572,"z":6.528450012207031},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97608568575874,"longitude":23.722301779404544,"elevation":0.000011346250413379776}
+        
+    }
+}

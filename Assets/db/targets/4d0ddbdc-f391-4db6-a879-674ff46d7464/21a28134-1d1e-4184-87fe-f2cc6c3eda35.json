@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:21a28134-1d1e-4184-87fe-f2cc6c3eda35",
+    "type": "Annotation",
+    "creator": {"id":"_una","name":"Una","email":"una.ulrike.schaefer@hu-berlin.de"},
+    "created": "2/5/2018 5:15:42 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "annotation"
+        }
+    ],
+    "target": {
+        "id": "{target:4d0ddbdc-f391-4db6-a879-674ff46d7464}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Kapitell_groß_3_2_MeshPart0",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "13:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "4d0ddbdc-f391-4db6-a879-674ff46d7464/a7c594fc-747e-49c5-b723-a84bea78a91c/6eeff8f4-15de-4e8b-a414-fb25127f3b43/b4cba97b-8877-439d-8e0a-ce4dc2b87a2e/a1a612b1-9d7d-45b0-a9b5-135155af81a2/"
+        },
+        "annotationPosition":  {"position":{"x":-6.69843864440918,"y":2.7354421615600588,"z":14.264097213745118},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97608058117486,"longitude":23.722457418174508,"elevation":0.000027511644720167503},
+        "viewPortPosition":  {"position":{"x":-2.0632095336914064,"y":0.7803598642349243,"z":13.826364517211914},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97605727850547,"longitude":23.722413356535918,"elevation":0.0000078484508429399}
+        
+    }
+}

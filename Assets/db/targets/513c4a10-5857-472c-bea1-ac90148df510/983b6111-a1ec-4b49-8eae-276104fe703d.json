@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:983b6111-a1ec-4b49-8eae-276104fe703d",
+    "type": "Annotation",
+    "creator": {"id":"_alan","name":"Alan","email":"alan@google.com"},
+    "created": "2/5/2018 6:16:54 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "TEST"
+        }
+    ],
+    "target": {
+        "id": "{target:513c4a10-5857-472c-bea1-ac90148df510}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Dach_Annex_Nord",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "18:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "513c4a10-5857-472c-bea1-ac90148df510/2da5c59e-3b67-4c03-be3c-786e497b1aff/f36a95c6-c9d1-4791-a0d6-8494eca4dee6/"
+        },
+        "annotationPosition":  {"position":{"x":2.3689818382263185,"y":2.956690788269043,"z":7.84244966506958},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.976079351113948,"longitude":23.722315638811855,"elevation":0.0000297368689576939},
+        "viewPortPosition":  {"position":{"x":-0.40257641673088076,"y":1.1835675239562989,"z":14.839017868041993},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97604622524557,"longitude":23.722390372311577,"elevation":0.000011903710899398955}
+        
+    }
+}

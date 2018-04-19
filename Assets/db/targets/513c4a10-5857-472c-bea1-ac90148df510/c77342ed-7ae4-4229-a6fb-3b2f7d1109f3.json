@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:c77342ed-7ae4-4229-a6fb-3b2f7d1109f3",
+    "type": "Annotation",
+    "creator": {"id":"_alan","name":"Alan","email":"alan@google.com"},
+    "created": "2/5/2018 5:37:29 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "annotation"
+        }
+    ],
+    "target": {
+        "id": "{target:513c4a10-5857-472c-bea1-ac90148df510}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Kapitell_groß_2",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "18:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "513c4a10-5857-472c-bea1-ac90148df510/4c7fb462-dba0-47ff-99a9-9e66989570c2/355564ee-b4d2-4745-9f28-d3da910eaa3e/9bc0c942-2c97-43c7-92af-32c87842f3da/"
+        },
+        "annotationPosition":  {"position":{"x":11.041858673095704,"y":1.4756906032562256,"z":1.4954692125320435},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.976068909283878,"longitude":23.72220908053971,"elevation":0.000014841723273915241},
+        "viewPortPosition":  {"position":{"x":6.207182884216309,"y":1.5839192867279053,"z":2.9477779865264894},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97608625691877,"longitude":23.722262192120714,"elevation":0.00001593023069331766}
+        
+    }
+}

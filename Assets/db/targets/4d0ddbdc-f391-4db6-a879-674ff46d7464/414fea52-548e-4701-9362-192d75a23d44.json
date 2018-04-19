@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:414fea52-548e-4701-9362-192d75a23d44",
+    "type": "Annotation",
+    "creator": {"id":"_una","name":"","email":""},
+    "created": "2/13/2018 1:22:28 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "test user id"
+        }
+    ],
+    "target": {
+        "id": "{target:4d0ddbdc-f391-4db6-a879-674ff46d7464}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Stoa 2 (Bsp)",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "13:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "4d0ddbdc-f391-4db6-a879-674ff46d7464/"
+        },
+        "annotationPosition":  {"position":{"x":-3.409965991973877,"y":1.3032221794128419,"z":9.705587387084961},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97609373143463,"longitude":23.722395638398497,"elevation":0.00001310712618796539},
+        "viewPortPosition":  {"position":{"x":0.3206719756126404,"y":1.1018602848052979,"z":11.393068313598633},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97606072349035,"longitude":23.72237483080988,"elevation":0.000011081933704471918}
+        
+    }
+}

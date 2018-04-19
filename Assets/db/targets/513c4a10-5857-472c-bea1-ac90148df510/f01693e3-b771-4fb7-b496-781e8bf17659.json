@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:f01693e3-b771-4fb7-b496-781e8bf17659",
+    "type": "Annotation",
+    "creator": {"id":"_alan","name":"Alan","email":"alan@google.com"},
+    "created": "2/5/2018 5:34:33 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "annotation"
+        }
+    ],
+    "target": {
+        "id": "{target:513c4a10-5857-472c-bea1-ac90148df510}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Nordannex_Säule_klein_2",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "18:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "513c4a10-5857-472c-bea1-ac90148df510/2da5c59e-3b67-4c03-be3c-786e497b1aff/d3291ae3-6024-4984-8da0-07766a5cbc6c/6a7aad2a-11ea-400a-a6e2-ebaa9984e36a/"
+        },
+        "annotationPosition":  {"position":{"x":3.0111207962036135,"y":1.3523004055023194,"z":8.165426254272461},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97606797545699,"longitude":23.72232789183575,"elevation":0.00001360072928389037},
+        "viewPortPosition":  {"position":{"x":5.476100444793701,"y":1.1934367418289185,"z":11.263071060180664},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97603231209554,"longitude":23.722328388183347,"elevation":0.000012002961750968315}
+        
+    }
+}

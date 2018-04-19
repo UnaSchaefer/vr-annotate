@@ -1,0 +1,42 @@
+
+
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "annotation:e8a3c059-b285-4087-98a6-2823f518392c",
+    "type": "Annotation",
+    "creator": {"id":"_alan","name":"Alan","email":"alan@google.com"},
+    "created": "2/5/2018 6:05:49 PM",
+    "generator": {
+        "id": "http://vr-annotator/v/01",
+        "type": "Software",
+        "name": "VR-Annotator v0.1"
+    },
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "describing",
+            "value": "TRIGLYPHE zu klein"
+        }
+    ],
+    "target": {
+        "id": "{target:513c4a10-5857-472c-bea1-ac90148df510}",
+        "type": "http://vr-annotator/feature/",
+        "targetNodeName":  "Triglyphe_10_2",
+        "state": 
+            {
+                "type": "VRSimulation",
+                "refinedBy": {
+                    "type": "SimulationTime",
+                    "sourceDate": "302 BC",
+                    "timeOfDay": "18:23:12"
+                }
+            },
+        "selector": {
+            "type": "nodeGraphPath",
+            "guidPath": "513c4a10-5857-472c-bea1-ac90148df510/8c869372-76f8-4c92-870b-0f94f598c93a/fb9fa71a-70a5-4087-8e9c-740171b452f1/8ca16b6f-60d3-49d3-9aa7-c733fde53e14/"
+        },
+        "annotationPosition":  {"position":{"x":8.485675811767579,"y":3.8766088485717775,"z":5.019999980926514},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97606428626278,"longitude":23.722241366288889,"elevation":0.000038988929714122644},
+        "viewPortPosition":  {"position":{"x":7.15752649307251,"y":1.2007806301116944,"z":10.71541690826416},"type":"GeoCoordinates","coordinateSystem":"Unity.WorldSpace","latitude":37.97603204322793,"longitude":23.722294009980048,"elevation":0.000012076831431356081}
+        
+    }
+}
